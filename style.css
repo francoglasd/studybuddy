@@ -1,0 +1,65 @@
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
+    100% { transform: translateX(0); }
+  }
+.error-label {
+    animation: shake 0.5s;
+    animation-iteration-count: 2;
+    color: red;
+}
+
+.tarea {
+    position: relative;
+    color: #515151;
+}
+.tarea:hover {
+    background-color: #0dcaf0;
+    color: #ffffff;
+  }
+
+.cardmain {
+    background-color: #ffe1d5;
+    color: #ff6b30;
+}
+.cardsub {
+    background-color: #f3dcb5;
+}
+
+.verde {
+    background-color: #d6f3d8 ;
+    color: #267647 ;
+}
+.azul {
+    background-color: #92b3d4 ;
+    color: rgb(20, 37, 168) ;
+}
+.caca {
+    background-color: #e6c9b3 ;
+    color: #55341e ;
+}
+
+header {
+    background-color: #ffc5af;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Urbanist', sans-serif;
+}
+.texto-negrita {
+    font-family: 'Urbanist', sans-serif;
+    font-weight: bold;
+}
+main {
+    flex: 1;
+}
+footer {
+    background-color: #ff8d60;
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+}
